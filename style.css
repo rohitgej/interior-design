@@ -11,19 +11,14 @@
   font-weight: 400;
   font-style: normal;
 }
-.navbar {
-  background-color: #fff4f4;
-
-}
 #const{
-  color: #0e0e0e;
+  color: #ffffff;
 }
 
 nav {
   background-color: transparent;
   color: rgb(255, 255, 255);
   width: 100%;
-  height: 12vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -31,9 +26,10 @@ nav {
   z-index: 2;
   transition: background-color 0.3s ease;
 }
-nav.scrolled {
-  background-color: #240908;
+.scrolled {
+  background-color: #24090886 !important;
 }
+
 .nav-bar ul {
   display: flex;
   gap:50px;
@@ -111,7 +107,7 @@ nav.scrolled {
 }
 
 .about-image img {
-  width: 500px;
+  width:100%;
   height: 300px;
   object-fit: cover;
   border-radius: 2%;
